@@ -1,0 +1,7 @@
+.makeCSS {
+    display: flex;
+    justify-content: center;  /* centers horizontally */
+    align-items: center;      /* centers vertically */
+    min-height: 100vh;        /* fills full viewport height */
+    background-color: #f8f9fa; /* optional light background */
+}

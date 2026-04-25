@@ -1,0 +1,33 @@
+.cart-btn {
+    background-color: #28a745; 
+    color: white;
+    width: 350px; 
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.cart-btn:hover {
+    background-color: #218838; 
+}
+
+.cart-icon {
+    position: fixed; 
+    top: 20px;
+    right: 20px;
+    font-size: 2rem; 
+    cursor: pointer;
+    z-index: 1000; 
+    transition: transform 0.2s;
+}
+  
+  .cart-icon:hover {
+    transform: scale(1.2);
+}
+  
