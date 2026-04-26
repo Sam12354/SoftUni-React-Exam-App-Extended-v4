@@ -1,4 +1,10 @@
-Project Setup
+## 🚀 Live Demo
+
+### 👉🌤️ [CLICK HERE TO OPEN THE APP](https://soft-uni-react-exam-app-extended-v4.vercel.app/)
+
+---
+
+## Project Setup
 
 Since this project utilizes cookies for authentication, you need to create a .env file to store sensitive information, such as the JWT_SECRET. Steps to Set Up the .env File:
 
