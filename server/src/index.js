@@ -36,7 +36,7 @@ app.use(cookieParser())
 
 app.use(cors({ 
     credentials: true, 
-    origin: 'http://localhost:5173' 
+    origin: 'https://soft-uni-react-exam-app-extended-v4.vercel.app'
 }));
 
 app.use(authMiddleware)
