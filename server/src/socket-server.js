@@ -14,7 +14,12 @@ const io = new SocketIO(server, {
 
 setupChat(io);
 
-server.listen(7777, () =>
-    console.log('✅ Server + Socket.IO running on http://localhost:7777')
-);
+// server.listen(7777, () =>
+//     console.log('✅ Server + Socket.IO running on http://localhost:7777')
+// );
 
+const PORT = process.env.PORT || 7777;
+
+server.listen(PORT, () =>
+    console.log(`Server running on port ${PORT}`)
+);
