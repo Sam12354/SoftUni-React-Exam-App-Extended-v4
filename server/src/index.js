@@ -9,7 +9,7 @@ import cors from 'cors';
 
 const app = express()
 
-const url = 'mongodb://localhost:27017'
+const url = process.env.MONGO_URL
 
 mongoose.connect(url, { dbName: 'Online_Store' })
     .then(() => console.log('DB connected'))
