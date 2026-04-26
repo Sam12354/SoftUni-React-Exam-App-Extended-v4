@@ -1,6 +1,6 @@
 import requester from "./requester";
 
-const BASE_URL = "http://localhost:7777/item"
+const BASE_URL = "https://softuni-react-exam-app-extended-v4.onrender.com/item"
 
 export const getAll = async () => {
     const result = await requester.get(`${BASE_URL}/catalog`);

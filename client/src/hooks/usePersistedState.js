@@ -13,7 +13,7 @@ export default function usePersistedState(key, initialState) {
 
     useEffect(() => {
         async function fetchUser() {
-            const user = await requester.get("http://localhost:7777/me");
+            const user = await requester.get("https://softuni-react-exam-app-extended-v4.onrender.com/me");
             if (user) { 
                 setState(user);
                 localStorage.setItem(key, JSON.stringify(user));

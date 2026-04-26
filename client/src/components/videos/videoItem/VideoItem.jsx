@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function VideoItem({ _id, video, user, title }){
 
-    const videoUrl = `http://localhost:7777/uploads/${video.split('\\').pop()}`;
+    const videoUrl = `https://softuni-react-exam-app-extended-v4.onrender.com/uploads/${video.split('\\').pop()}`;
 
     return (
         <div className="portfolio-item">

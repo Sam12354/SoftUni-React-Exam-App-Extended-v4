@@ -1,6 +1,6 @@
 import requester from "./requester.js"
 
-const BASE_URL = "http://localhost:7777/auth"
+const BASE_URL = "https://softuni-react-exam-app-extended-v4.onrender.com/auth"
 
 export const login = (email, password) => {
 

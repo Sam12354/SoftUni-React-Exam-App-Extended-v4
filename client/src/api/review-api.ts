@@ -1,6 +1,6 @@
 import requester from "./requester.js";
 
-const BASE_URL = "http://localhost:7777/review";
+const BASE_URL = "https://softuni-react-exam-app-extended-v4.onrender.com/review";
 
 export interface Review {
 	itemId: string;

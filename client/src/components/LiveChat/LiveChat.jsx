@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { io } from 'socket.io-client';
 import NicknameChat from '../nicknameChat/NicknameChat';
 
-const socket = io('http://localhost:7777');
+const socket = io('https://softuni-react-exam-app-extended-v4.onrender.com');
 
 export default function LiveChat() {
     // stores the actual nickname

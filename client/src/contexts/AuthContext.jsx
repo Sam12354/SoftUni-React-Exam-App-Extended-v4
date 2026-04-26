@@ -16,7 +16,7 @@ export function AuthContextProvider({ children }) {
     useEffect(() => {
         async function fetchUser() {
             try {
-                const user = await requester.get("http://localhost:7777/me"); 
+                const user = await requester.get("https://softuni-react-exam-app-extended-v4.onrender.com/me"); 
                 setAuthState(user);
                 // console.log(authState)
 
@@ -32,7 +32,7 @@ export function AuthContextProvider({ children }) {
     };
 
     const logout = async () => {
-        await requester.get("http://localhost:7777/auth/logout"); 
+        await requester.get("https://softuni-react-exam-app-extended-v4.onrender.com/auth/logout"); 
         setAuthState(null);
     };
 

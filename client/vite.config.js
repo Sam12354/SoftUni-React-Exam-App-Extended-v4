@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'http://localhost:7777'
+      '/api': 'https://softuni-react-exam-app-extended-v4.onrender.com'
     }
   } 
 })
