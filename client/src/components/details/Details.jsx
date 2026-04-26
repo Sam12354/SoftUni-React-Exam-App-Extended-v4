@@ -83,7 +83,7 @@ export default function Details() {
                                                     </Link>
                                                     {showModal && <Modal onConfirm={() => itemDeleteHandler(itemId)} onCancel={() => setShowModal(false)} />}
                                                     <button onClick={() => setShowModal(true)} className="btn btn-danger btn-xl text-uppercase mt-3" type="button">
-                                                        Delete Video
+                                                        Delete Item
                                                     </button>
                                                 </>
                                             ) : (
