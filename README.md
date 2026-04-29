@@ -2,6 +2,8 @@
 
 ### 👉🌤️ [CLICK HERE TO OPEN THE APP](https://soft-uni-react-exam-app-extended-v4.vercel.app/)
 
+⚠️ Note: The backend is hosted on Render free tier, so the first request may take ~20–30 seconds to wake up if the server was inactive.
+
 ---
 
 ## Project Setup
